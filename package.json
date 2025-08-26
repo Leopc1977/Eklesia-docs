@@ -3,10 +3,9 @@
     "docs:dev": "vitepress dev .",
     "docs:build": "vitepress build .",
     "docs:preview": "vitepress preview .",
-    "docs:deploy": "gh-pages -d .vitepress/dist"
+    "docs:deploy": "npm run docs:build && gh-pages -d .vitepress/dist -b gh-pages -r https://github.com/Leopc1977/Eklesia-docs.git"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
     "vitepress": "^2.0.0-alpha.12"
   }
 }
