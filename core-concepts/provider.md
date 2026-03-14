@@ -10,9 +10,9 @@ A **Provider** is the AI backend abstraction in Eklesia. It defines how agents c
 
 Eklesia ships with three provider types:
 
-- **`Provider`** — The abstract base class
-- **`OpenAIGenericProvider`** — Works with any OpenAI-compatible API (OpenAI, local models, etc.)
-- **`TerminalInputProvider`** — Reads input from the terminal (for human participation)
+- **`Provider`** : The abstract base class
+- **`OpenAIGenericProvider`** : Works with any OpenAI-compatible API (OpenAI, local models, etc.)
+- **`TerminalInputProvider`** : Reads input from the terminal (for human participation)
 
 ## Provider (Base Class)
 
@@ -151,9 +151,9 @@ const provider = getProviderByType(
 ```
 
 Currently supported types:
-- `"openai-chat"` — `OpenAIGenericProvider`
+- `"openai-chat"` : `OpenAIGenericProvider`
 
 ## Next Steps
 
-- [Agent](/core-concepts/agent) — Agents that use providers to generate responses
-- [Custom Provider](/advanced/custom-provider) — Build your own provider
+- [Agent](/core-concepts/agent) : Agents that use providers to generate responses
+- [Custom Provider](/advanced/custom-provider) : Build your own provider

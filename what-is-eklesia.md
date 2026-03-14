@@ -9,18 +9,18 @@ It provides a modular, backend-agnostic framework to manage multiple AI agents, 
 
 ## Origin
 
-Eklesia was originally conceived as a TypeScript rewrite of [ChatArena](https://github.com/Farama-Foundation/chatarena) by the [Farama Foundation](https://github.com/Farama-Foundation). It has since diverged by introducing an explicit **Orchestrator** layer — an architectural component that coordinates agents, environments, and interaction flows, making the system more modular and backend-agnostic.
+Eklesia was originally conceived as a TypeScript rewrite of [ChatArena](https://github.com/Farama-Foundation/chatarena) by the [Farama Foundation](https://github.com/Farama-Foundation). It has since diverged by introducing an explicit **Orchestrator** layer: an architectural component that coordinates agents, environments, and interaction flows, making the system more modular and backend-agnostic.
 
 ## Key Features
 
-- **Multi-Agent Orchestration** — Manage multiple AI agents interacting in the same environment
-- **Simulated Environments** — Build or plug in different environments (chat, games, custom scenarios)
-- **Backend Agnostic** — Works with any OpenAI-compatible API, local models, or custom providers
-- **Extensible** — Add new agents, environments, orchestrators, or providers with minimal code
+- **Multi-Agent Orchestration** : Manage multiple AI agents interacting in the same environment
+- **Simulated Environments** : Build or plug in different environments (chat, games, custom scenarios)
+- **Backend Agnostic** : Works with any OpenAI-compatible API, local models, or custom providers
+- **Extensible** : Add new agents, environments, orchestrators, or providers with minimal code
 
 ## Core Architecture
 
-Eklesia is built around five key abstractions:
+Eklesia is built around five key abstractions :
 
 | Concept | Role |
 |---|---|
@@ -53,12 +53,12 @@ await arena.run(10);
 
 ## Acknowledgments
 
-Inspired by:
+Inspired by :
 - [ChatArena](https://github.com/Farama-Foundation/chatarena) by [Farama Foundation](https://github.com/Farama-Foundation)
 - [House](https://github.com/sausheong/house) by [sausheong](https://github.com/sausheong)
 - [game_arena](https://github.com/google-deepmind/game_arena) by [Google DeepMind](https://github.com/google-deepmind)
 
 ## Next Steps
 
-- [Installation](/getting-started/installation) — Get Eklesia set up locally
-- [Quick Start](/getting-started/quick-start) — Build your first simulation
+- [Installation](/getting-started/installation) : Get Eklesia set up locally
+- [Quick Start](/getting-started/quick-start) : Build your first simulation

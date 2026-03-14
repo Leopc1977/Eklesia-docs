@@ -10,8 +10,8 @@ The **Environment** represents the context or world in which agents operate. It 
 
 Eklesia provides two environment classes:
 
-- **`Environment`** — The abstract base class that defines the interface
-- **`ConversationEnvironment`** — A concrete implementation for multi-agent conversations
+- **`Environment`** : The abstract base class that defines the interface
+- **`ConversationEnvironment`** : A concrete implementation for multi-agent conversations
 
 ## Environment (Base Class)
 
@@ -96,8 +96,8 @@ const shouldEnd = await env.isTerminal(true);
 ```
 
 The moderator checks happen based on the moderator's `period` setting:
-- `"turn"` — Check after every agent's turn
-- `"round"` — Check only at the end of a full round (when `beforeNewRound` is `true`)
+- `"turn"` : Check after every agent's turn
+- `"round"` : Check only at the end of a full round (when `beforeNewRound` is `true`)
 
 #### `print()`
 
@@ -116,5 +116,5 @@ type Message = {
 
 ## Next Steps
 
-- [Agent](/core-concepts/agent) — The entities that act within the environment
-- [Custom Environment](/advanced/custom-environment) — Build your own environment
+- [Agent](/core-concepts/agent) : The entities that act within the environment
+- [Custom Environment](/advanced/custom-environment) : Build your own environment

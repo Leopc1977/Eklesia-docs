@@ -124,6 +124,6 @@ The `run()` method executes a simple loop:
 
 ## Next Steps
 
-- [Orchestrator](/core-concepts/orchestrator) — Learn how turn-taking is managed
-- [Environment](/core-concepts/environment) — Understand the context agents operate in
-- [Agent](/core-concepts/agent) — See how agents generate responses
+- [Orchestrator](/core-concepts/orchestrator) : Learn how turn-taking is managed
+- [Environment](/core-concepts/environment) : Understand the context agents operate in
+- [Agent](/core-concepts/agent) : See how agents generate responses

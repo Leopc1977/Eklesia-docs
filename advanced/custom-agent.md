@@ -142,4 +142,4 @@ await arena.run(10);
 - Call `super.act()` to use the built-in prompt construction and provider query
 - The `mergeOtherAgentAsUser` constructor option controls how other agents' messages are formatted
 - The `requestMsg` option lets you customize the final prompt sent to the agent
-- Error handling is built in — if the provider fails, `act()` returns a termination signal
+- Error handling is built in, if the provider fails, `act()` returns a termination signal

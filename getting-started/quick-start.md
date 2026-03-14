@@ -180,6 +180,6 @@ See the [examples on GitHub](https://github.com/Leopc1977/Eklesia/tree/main/exam
 
 ## Next Steps
 
-- [Core Concepts](/core-concepts/arena) — Understand the building blocks
-- [Custom Agent](/advanced/custom-agent) — Create specialized agent types
-- [Custom Environment](/advanced/custom-environment) — Build your own environments
+- [Core Concepts](/core-concepts/arena) : Understand the building blocks
+- [Custom Agent](/advanced/custom-agent) : Create specialized agent types
+- [Custom Environment](/advanced/custom-environment) : Build your own environments

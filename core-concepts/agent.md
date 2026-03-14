@@ -10,9 +10,9 @@ An **Agent** is an AI entity that participates in a simulation. Each agent has a
 
 Eklesia provides three agent types:
 
-- **`Agent`** — The standard AI agent backed by a provider
-- **`Moderator`** — A specialized agent that evaluates terminal conditions
-- **`User`** — An agent backed by human terminal input
+- **`Agent`** : The standard AI agent backed by a provider
+- **`Moderator`** : A specialized agent that evaluates terminal conditions
+- **`User`** : An agent backed by human terminal input
 
 ## Agent (Base Class)
 
@@ -77,7 +77,7 @@ const response = await agent.act(messages, "A debate about AI safety.");
 | `observation`            | `Array<Message>` | The conversation history visible to the agent      |
 | `environmentDescription` | `string`         | The environment's description text                 |
 
-**Returns:** `Promise<string>` — The agent's response text.
+**Returns:** `Promise<string>`: The agent's response text.
 
 ### How Messages Are Constructed
 
@@ -88,7 +88,7 @@ When an agent acts, it builds a prompt from:
    - Messages from the agent itself become `assistant` messages
    - Messages from other agents become `user` messages (prefixed with `[AgentName]`)
    - System messages remain as `system` messages
-3. A final **request prompt** — either the custom `requestMsg` or the default `"Now you speak, {agentName}."`
+3. A final **request prompt**: either the custom `requestMsg` or the default `"Now you speak, {agentName}."`
 
 ## Moderator
 
@@ -136,5 +136,5 @@ const user = new User(terminalProvider);
 
 ## Next Steps
 
-- [Provider](/core-concepts/provider) — The AI backends that power agents
-- [Custom Agent](/advanced/custom-agent) — Create specialized agent types
+- [Provider](/core-concepts/provider): The AI backends that power agents
+- [Custom Agent](/advanced/custom-agent): Create specialized agent types

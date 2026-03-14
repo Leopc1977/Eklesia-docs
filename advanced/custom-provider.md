@@ -159,6 +159,6 @@ await arena.run(10);
 ## Key Points
 
 - Override `query()` to implement your AI backend integration
-- Always return a `ChatCompletionResponse` — the agent expects `choices[0].message.content`
+- Always return a `ChatCompletionResponse`, the agent expects `choices[0].message.content`
 - Use `this.temperature` and `this.max_tokens` from the base class
 - The `messages` parameter uses the standard `{ role, content }` format

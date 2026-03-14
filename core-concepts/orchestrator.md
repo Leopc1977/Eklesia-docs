@@ -90,6 +90,6 @@ You can extend the base `Orchestrator` to implement different turn-taking strate
 
 ## Next Steps
 
-- [Arena](/core-concepts/arena) — The container that runs the orchestrator
-- [Environment](/core-concepts/environment) — The context the orchestrator operates within
-- [Custom Orchestrator](/advanced/custom-orchestrator) — Build your own turn-taking logic
+- [Arena](/core-concepts/arena) : The container that runs the orchestrator
+- [Environment](/core-concepts/environment) : The context the orchestrator operates within
+- [Custom Orchestrator](/advanced/custom-orchestrator) : Build your own turn-taking logic

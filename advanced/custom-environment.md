@@ -154,6 +154,6 @@ await arena.run(10);
 ## Key Points
 
 - Always implement `addMessage`, `getObservation`, and `isTerminal`
-- The `description` property is passed to agents as context — make it descriptive
+- The `description` property is passed to agents as context
 - Use the `moderator` property if you want AI-driven terminal condition evaluation
 - Custom environments can track any kind of state beyond simple message history
