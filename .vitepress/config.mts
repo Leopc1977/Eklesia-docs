@@ -10,8 +10,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'What is Eklesia', link: '/what-is-eklesia' },
       { text: 'Getting Started', link: '/getting-started/installation' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text: 'API Reference', link: '/reference/api' },
+      { text: 'Core Concepts', link: '/core-concepts/arena' },
       { text: 'Contributing', link: '/contributing/how-to-contribute' },
     ],    
 
@@ -51,7 +50,6 @@ export default defineConfig({
       {
         text: 'Reference',
         items: [
-          { text: 'API', link: '' },
           { text: 'Examples', link: 'https://github.com/Leopc1977/Eklesia/tree/main/examples' },
         ],
       },
